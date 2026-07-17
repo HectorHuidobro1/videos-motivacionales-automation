@@ -1,0 +1,8 @@
+node_modules
+.env
+out/
+.superpowers/
+public/clips/
+youtube_client_secret.json
+__pycache__/
+*.pyc

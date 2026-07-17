@@ -1,0 +1,26 @@
+{
+  "name": "pronado-remotion",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx remotion preview src/Root.tsx",
+    "build": "npx remotion render src/Root.tsx TopPlaces out/video.mp4",
+    "build:motivacional": "npx remotion render src/Root.tsx Motivacional out/motivacional.mp4",
+    "build:karaoke": "npx remotion render src/Root.tsx MotivacionalKaraoke out/motivacional_karaoke.mp4",
+    "build:broll": "npx remotion render src/Root.tsx MotivacionalBroll out/motivacional_broll.mp4",
+    "typecheck": "npx tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "remotion": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}
